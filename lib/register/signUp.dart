@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Sign extends StatefulWidget {
-  const Sign({super.key});
+class sign extends StatefulWidget {
+  const sign({super.key});
 
   @override
-  State<Sign> createState() => _SignState();
+  State<sign> createState() => _signState();
 }
 
-class _SignState extends State<Sign> {
+class _signState extends State<sign> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
