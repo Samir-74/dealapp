@@ -1,5 +1,5 @@
 import 'package:dealapp/Theme/theme.dart';
-import 'package:dealapp/view/login.dart';
+import 'package:dealapp/view/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Deal',
       theme: lightMode,
-      home: const LoginView(),
+      home: const RegisterView(),
     );
   }
 }
